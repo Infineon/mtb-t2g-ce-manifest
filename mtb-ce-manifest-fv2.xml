@@ -4,7 +4,7 @@
     <id>mtb-t2g-example-nmi-timing-protection</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-nmi-timing-protection</uri>
-    <description><![CDATA[This code example demonstrates the Timing Protection configuration using NMI, shows its operation, initial setting, and interrupt handling.
+    <description><![CDATA[This code example demonstrates the Timing Protection configuration using Non Maskable Interrupt (NMI), shows its operation, initial setting, and interrupt handling. In this example, the Interrupt Service Routine (ISR) processing time is protected. If the processing time limit is exceeded, an NMI is generated and appropriate action can be taken.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-nmi-timing-protection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -15,11 +15,11 @@
     </versions>
   </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
-    <name>SECURE_boot</name>
+    <name>SECURE boot</name>
     <id>mtb-t2g-example-secure-boot</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-secure-boot</uri>
-    <description><![CDATA[This code example demonstrates how to configure the firmware to Secure Boot.
+    <description><![CDATA[This code example demonstrates how to configure the firmware to Secure Boot. In this CE, the TRAVEO™ T2G MCU's Flash Boot, which is first verified by BootROM and guaranteed secure, verifies the CM0+ firmware. After booting, the CM0+ firmware verifies the CM7_0/1 firmware and enables them only if the signatures match.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-secure-boot/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -30,11 +30,11 @@
     </versions>
   </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
-    <name>PROT_CPU_MPU_Configuration</name>
+    <name>PROT CPU MPU Configuration</name>
     <id>mtb-t2g-example-cpu-mpu-configuration</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-cpu-mpu-configuration</uri>
-    <description><![CDATA[This code example shows how to configure the Memory Protection Unit (MPU), which is part of the CPU, and describes its operation and initial settings.
+    <description><![CDATA[This code example shows how to configure the Memory Protection Unit (MPU), which is part of the CPU, and describes its operation and initial settings. In this example, the memory is split in different regions and protected. When a protected region is tried to access, an exception is raised.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-cpu-mpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -49,7 +49,7 @@
     <id>mtb-t2g-example-software-interrupt</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-software-interrupt</uri>
-    <description><![CDATA[This code example shows how to generate software interrupts and describes their operation, initialization, and interrupt handling.
+    <description><![CDATA[This code example shows how to generate software interrupts and describes their operation, initialization, and interrupt handling. In this example, software is used to generate an indirect interrupt, by setting the interrupt bit of a timer peripheral.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-software-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -64,7 +64,7 @@
     <id>mtb-t2g-example-mdma-memorycopy</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-mdma-memorycopy</uri>
-    <description><![CDATA[This code example demonstrates the transmission of data from memory to memory by Memory DMA (M-DMA), shows its operation, initial setting, and interrupt handling.
+    <description><![CDATA[This code example demonstrates the transmission of data from memory to memory by Memory DMA (M-DMA), shows its operation, initial setting, and interrupt handling. This code example demonstrates the transmission of data from Code Flash to SRAM by M-DMA. M-DMA transfer is initiated using software triggers.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-mdma-memorycopy/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -79,7 +79,7 @@
     <id>mtb-t2g-example-swpu-app-protection</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-example-swpu-app-protection</uri>
-    <description><![CDATA[This code example shows how to configure user application protection using a SWPU (SoftWare Protection Unit).
+    <description><![CDATA[This code example shows how to configure user application protection using a SWPU (SoftWare Protection Unit). The SWPU of the TRAVEO™ T2G MCU consists of the FWPU (Flash Write Protection Unit), ERPU (eFuse Read Protection Unit), and EWPU (eFuse Write Protection Unit) to protect the protection target from access by the user application. This CE configures the FWPU to protect the write/erase access to the Code Flash from each CM7 cores.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-swpu-app-protection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
@@ -93,7 +93,7 @@
     <name>GPIO Pins</name>
     <id>mtb-t2g-lite-example-gpio-pins</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-gpio-pins</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-gpio-pins</uri>
     <description><![CDATA[This example demonstrates the GPIO pin operation on the TRAVEO™ T2G body high MCU, using Eclipse IDE for ModusToolbox™. This includes reading, writing, interrupts, and full configuration.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-gpio-pins/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -108,7 +108,7 @@
     <name>ADC basic</name>
     <id>mtb-t2g-lite-example-adc-basic</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-adc-basic</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-basic</uri>
     <description><![CDATA[This code example demonstrates the use of the ADC HAL driver to perform voltage measurements. In this example, the driver is configured to sample the input voltage periodically and display the sampled voltage on the UART terminal. By default, the ADC is configured to use one channel in single-ended mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-adc-basic/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -123,7 +123,7 @@
     <name>EVTGEN trigger ADC</name>
     <id>mtb-t2g-lite-example-evtgen-active-trigger-adc</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-evtgen-active-trigger-adc</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-evtgen-active-trigger-adc</uri>
     <description><![CDATA[This code example demonstrates how to use the TRAVEO™ T2G MCU event generator (EVTGEN) resource to trigger ADC conversion in active power mode. In this example, the event generator is configured to trigger an ADC conversion every second, and when ADC conversion is complete, print out the ADC result via UART.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-evtgen-active-trigger-adc/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -138,7 +138,7 @@
     <name>Smart IO with GPIO</name>
     <id>mtb-t2g-lite-example-smartio-gpio</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-smartio-gpio</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-smartio-gpio</uri>
     <description><![CDATA[This example uses the smart I/O peripheral in TRAVEO™ T2G MCU to connect the button input pin to an output pin to toggle an external LED. There is no CPU usage except for the initialization of GPIO and smart I/O.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-smartio-gpio/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -153,7 +153,7 @@
     <name>TCPWM Dead Time Mode</name>
     <id>mtb-t2g-lite-example-tcpwm-dt</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-dt</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-dt</uri>
     <description><![CDATA[This code example shows TCPWM dead-time mode function. PWM line and PWM COMPL pins output the 1-kHz frequency wave and 1-kHz frequency wave with PWM leftalign 250 us in PWM dead-time mode
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-dt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -168,7 +168,7 @@
     <name>Toggle LED with SysTick Timer</name>
     <id>mtb-t2g-lite-example-systick-led</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-systick-led</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-systick-led</uri>
     <description><![CDATA[This code example demonstrates how to use the SysTick timer to generate a timer interrupt on TRAVEO™ T2G MCU. The user LED is toggled when 10 SysTick timer interrupts are generated.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-systick-led/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -183,7 +183,7 @@
     <name>CAN FD</name>
     <id>mtb-t2g-lite-example-canfd</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-canfd</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-canfd</uri>
     <description><![CDATA[This code example demonstrates how to use controller area network flexible data-rate (CAN FD) in TRAVEO™ T2G MCU devices. In this example, the CAN Node-1 sends a CAN FD or standard frame to CAN Node-2 on pressing the user button and vice versa. Both the CAN nodes log the received data over UART serial terminal. Each time a CAN frame is received, the user LED toggles.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-canfd/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -198,7 +198,7 @@
     <name>SCB SPI Master DMA</name>
     <id>mtb-t2g-lite-example-spi-master-dma</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-spi-master-dma</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-spi-master-dma</uri>
     <description><![CDATA[This example demonstrates the use of the SPI serial communication block (SCB) resource for Infineon MCU in master and slave mode using DMA. The SPI master is configured to send command packets to control a user LED on the slave. Both the master and slave can be on the same device or on different devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-spi-master-dma/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -213,7 +213,7 @@
     <name>Emulated EEPROM</name>
     <id>mtb-t2g-lite-example-emulated-eeprom</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-emulated-eeprom</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-emulated-eeprom</uri>
     <description><![CDATA[This example uses the Arm® Cortex®-M7 (CM7_0) CPU of the TRAVEO™ T2G MCU to execute two tasks: UART communication and emulate EEPROM behavior in flash memory.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-emulated-eeprom/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -228,7 +228,7 @@
     <name>TCPWM Counter</name>
     <id>mtb-t2g-lite-example-tcpwm-counter</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-counter</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-counter</uri>
     <description><![CDATA[This code example demonstrates how to use the tcpwm counter on the TRAVEO™ T2G MCU. The counter is started by pwm signal and work with 200KHz clock frequency. Enable the counter CC0 match interrupt, when counter up to CC0 match value generates the interrupt to toggle user LED.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-counter/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -243,7 +243,7 @@
     <name>MCWDT Interrupt</name>
     <id>mtb-t2g-lite-example-mcwdt</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-mcwdt</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-mcwdt</uri>
     <description><![CDATA[This example shows how to configure TRAVEO™ T2G MCWDT Subcounter0/1 and Subcounter2 operation with interrupt.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-mcwdt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
@@ -258,12 +258,192 @@
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-t2g-lite-example-uart-transmit-receive-dma</id>
     <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-uart-transmit-receive-dma</uri>
+    <uri>https://github.com/Infineon/mtb-t2g-example-uart-transmit-receive-dma</uri>
     <description><![CDATA[This code example demonstrates the UART transmit and receive operation in TRAVEO™ T2G using DMA. The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-uart-transmit-receive-dma/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>FAULT REPORT Configuration</name>
+    <id>mtb-t2g-example-fault-report-configuration</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-fault-report-configuration</uri>
+    <description><![CDATA[This code example shows how to configure the fault subsystem and describes its operation. In this example, a correctable error correction code (ECC) error is injected into the memory, causing a fault.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-fault-report-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>SMIF QSPI Flash Read Write</name>
+    <id>mtb-t2g-example-smif-qspi-flash-read-write</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-smif-qspi-flash-read-write</uri>
+    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad SPI (QSPI) mode using the serial memory interface (SMIF) in Infineon MCU. This code example configures the QSPI flash memory mounted on the board with the QSPI Configurator and accesses it via the serial-flash library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smif-qspi-flash-read-write/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>P-DMA 2D Transfer</name>
+    <id>mtb-t2g-example-pdma-2d-transfer</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-pdma-2d-transfer</uri>
+    <description><![CDATA[This code example demonstrates the transmission of data by Peripheral Direct Memory Access (P-DMA) 2D Transfer, shows its operation, initial setting, and interrupt handling. This code example demonstrates the transmission of data by P-DMA with 2D-Transfer.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pdma-2d-transfer/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>SECURE PPU Enhanced Security</name>
+    <id>mtb-t2g-example-secure-ppu-enhanced-security</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-secure-ppu-enhanced-security</uri>
+    <description><![CDATA[This code example shows how to configure a PPU enhanced security. The PPU (Peripheral Protection Unit) is one of the protection features of the TRAVEO™ T2G MCU. This CE shows how to enhance security by adding a PPU configuration to TOC2 in SFlash and enabling it by flash boot and HSM (Hardware Security Module) software (= CM0+ firmware). This operation can enhance the security of the HSM software. Note that to ensure the security HSM software should be securely booted using secure boot mechanism of the TRAVEO™ T2G MCU, but this CE does not implement that since it focuses to the security enhancement feature. To see how to implement the secure boot mechanism, refer to another CE <a href="https://github.com/Infineon/mtb-t2g-example-secure-boot">SECURE boot</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-secure-ppu-enhanced-security/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>FLASH Dual Bank Switching</name>
+    <id>mtb-t2g-example-flash-dual-bank-switching</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-flash-dual-bank-switching</uri>
+    <description><![CDATA[This code example shows how to switch the bank configuration of flash memory. TRAVEO™ T2G MCUs have a Dual Bank mode in Code and Data Flash memory, where the area is divided into two banks in addition to the Single Bank mode used for normal mapping. In Dual Bank mode, either logical bank 0 or 1 can be the active bank and the other side becomes the inactive bank by performing bank switching. This feature allows for quick activation of the new firmware and rollback to the old firmware after a firmware rewrite via OTA (Over-The-Air). In addition, the new firmware can be written to the inactive bank while the application is running in the active bank, significantly reducing system downtime. This CE shows how to switch the bank mode on code flash memory.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-flash-dual-bank-switching/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>TCPWM Asymmetric PWM Generation</name>
+    <id>mtb-t2g-example-pwm-dual-compare-capture</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-pwm-dual-compare-capture</uri>
+    <description><![CDATA[This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the Timer, Counter and PWM (TCPWM) block. Compared to the asymmetric PWM realized with only one compare function (where the CPU is used to update the compare value twice every PWM cycle), this solution uses two independent buffered compare values and causes less load on the CPU (where the CPU is used to update the compare value once every PWM cycle). PWM waveform can be modified through the command on the terminal.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pwm-dual-compare-capture/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>AUDIOSS I2S Sound Play using DMA</name>
+    <id>mtb-t2g-example-audioss-i2s-sound-play-using-dma</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-audioss-i2s-sound-play-using-dma</uri>
+    <description><![CDATA[This code example shows how to play the sound of WAV format via I2S functionality of AUDIO Subsystem using P-DMA. TRAVEO™ T2G MCUs have an Audio Subsystem that can establish a serial bus interface used to connect digital audio device together. This CE transmits a WAV sound source prepared in Code Flash via standard I2S bus. In addition, the sound can be played without any CPU load since the CPU only used to input a trigger to start playing the sound and the sound data transmission is done automatically by P-DMA.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-audioss-i2s-sound-play-using-dma/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>REGHC Pass Transistor Configuration</name>
+    <id>mtb-t2g-example-pass-transistor-configuration</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-pass-transistor-configuration</uri>
+    <description><![CDATA[This code example demonstrates how to switch and configure to an external Pass Transistor. This code example demonstrates how to switch the power supply source between an internal regulator (LDO) and an external pass transistor. It also shows enter and wake up from DeepSleep mode when the external pass transistor is used.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pass-transistor-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>PROT PPU ECC Injection</name>
+    <id>mtb-t2g-example-prot-ppu-ecc-injection</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-prot-ppu-ecc-injection</uri>
+    <description><![CDATA[This code example shows how to perform the error injection onto Error Correcting Code (ECC) of Peripheral Protection Unit (PPU). The static random-access memory (SRAM) stored protection information of PPU is supported by ECC. This ECC supports single error correction and double error detection (SECDED). In this example, an ECC error is injected into the SRAM that contains PPU configuration.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-prot-ppu-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh]">
+    <name>SMART IO Glitch Filter</name>
+    <id>mtb-t2g-example-smart-io-glitch-filters</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-smart-io-glitch-filters</uri>
+    <description><![CDATA[This code example shows how to configure the glitch filter using Smart I/O functionality. In this example, glitch signal is connected to Smart I/O to filter the glitch and provide a filtered output signal. No CPU load is required to perform the filtering, except for initialization of general-purpose input/output (GPIO) and Smart I/O.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smart-io-glitch-filters/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>PROT PPU Configuration</name>
+    <id>mtb-t2g-example-ppu-configuration</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-ppu-configuration</uri>
+    <description><![CDATA[This code example shows how to configure the PPU (Peripheral Protection Unit) and describes its operation and initial settings. In this example, the PPU is used for protection. If access violation is detected, a fault is generated.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ppu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>PROT SMPU Configuration</name>
+    <id>mtb-t2g-example-smpu-configuration</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-smpu-configuration</uri>
+    <description><![CDATA[This code example shows how to configure the SMPU (Shared Memory Protection Unit) and describes its operation and initial settings. In this example, the SMPU is used for protection. If access violation is detected, a fault is generated.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
