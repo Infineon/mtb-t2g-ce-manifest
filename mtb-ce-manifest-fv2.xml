@@ -449,4 +449,244 @@
       </version>
     </versions>
   </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>ADC 3CHs simultaneous conversion using TCPWM</name>
+    <id>mtb-t2g-example-adc-simul-conversion</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-simul-conversion</uri>
+    <description><![CDATA[This code example demonstrates how to convert multiple SAR ADC (Successive Approximation Register Analog-to-Digital Converter) channels simultaneously by triggering the TCPWM (Timer, Counter and PWM) counter. In this example, three SAR-ADC channels ADC[0]_0, ADC[1]_0 and ADC[2]_0 are configured to get trigger from the TCPWM counter. The trigger from the TCPWM counter is connected in parallel to the SAR sequencer of each channel using trigger multiplexer. All the ADC conversion of each channel will start simultaneously as soon as the counter reaches its terminal count.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-simul-conversion/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>TCPWM Simultaneous Startup</name>
+    <id>mtb-t2g-example-tcpwm-simul-start</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-simul-start</uri>
+    <description><![CDATA[This code example demonstrates how to trigger multiple TCPWM (Timer, Counter and PWM) channels simultaneously by software. In this example, the LED-A and LED-B on the target board connected to the PWM output pin and blink at the rate of 2Hz with different duty cycles. These PWMs are made by TCPWM (Timer, Counter, and PWM) and simultaneously activated by software via Trigger Multiplexer.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-simul-start/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>RAM Retention after External Reset</name>
+    <id>mtb-t2g-example-ram-retention-external-reset</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-ram-retention-external-reset</uri>
+    <description><![CDATA[This code example checks RAM Retention mode after External Reset occurs. The TRAVEO™ T2G MCU has a retention function for SRAM, but after an external reset using the XRES_L pin occurs, the SRAM values cannot be retained correctly because the write buffer of the SRAM is not subject to retention. This example shows how to retain the SRAM value even after the MCU is reset by an external device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-external-reset/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>RAM Retention in DeepSleep Power Mode</name>
+    <id>mtb-t2g-example-ram-retention-deepsleep</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-ram-retention-deepsleep</uri>
+    <description><![CDATA[This code example demonstrates how to set RAM into Retention mode before entering DeepSleep mode. TRAVEO™ T2G MCUs provides the Static RAM (SRAM) Retention function in DeepSleep mode. This code example writes known data into SRAM Controller 1 and sets the SRAM into Retention mode before entering DeepSleep mode. After wakeup from DeepSleep mode, data written to SRAM Controller 1 is read back and compared to the data written before entering DeepSleep mode to check if the data is retained.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-deepsleep/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>ADC Conversion Result Processing</name>
+    <id>mtb-t2g-example-adc-processing-result</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-processing-result</uri>
+    <description><![CDATA[This code example shows how the conversion results of the SAR ADC change depending on the various conversion output methods. In this example, the results of various ADC conversion output methods (Averaging, Alignment, Sign Extension) are executed. The KIT potentiometer is set as the ADC input and the conversion is performed. The results are sent to the terminal each time according to the user's input, which includes the average count and the output format.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-processing-result/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>CRYPTO Performance Measurement</name>
+    <id>mtb-t2g-example-crypto-performance</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-crypto-performance</uri>
+    <description><![CDATA[This code example shows the performance differences of crypto hardware block and the one that is performed by CPU. The result should be printed to the terminal along with the approximate time taken for each method. In this example, the performance is analyzed while generating a 32-byte hash value or message digest for a given data with the SHA256 algorithm using the Cryptographic hardware block in the MCU. The cipher procedure on CPU is done by MbedTLS library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-crypto-performance/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>TCPWM Capture</name>
+    <id>mtb-t2g-example-tcpwm-capture</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-capture</uri>
+    <description><![CDATA[This code example shows how to configure the capture function using TCPWM (Timer, Counter and Pulse Width Modulator) block and describes its operation and initial settings. The example configures TCPWM (Timer, Counter and Pulse Width Modulator) as the Counter mode with User button (USER_BTN) as input. The button is used as start, reload and stop trigger. In addition, the rising edge made by the button release will be captured by the counter.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-capture/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>Clock External Output</name>
+    <id>mtb-t2g-example-clock-external-output</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-clock-external-output</uri>
+    <description><![CDATA[This code example demonstrates how to use the clock output feature which routes clock CLK_HF3 to an external pin. In this example a pin will be configured to output the clock CLK_HF3. The user will be able to change the frequency of CLK_HF3 during runtime. In a real application this feature can be used for supplying external components with a clock signal or for diagnostic/debugging purposes like monitoring an internal clock signal on a port pin.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-clock-external-output/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>M-DMA Scatter Transfer</name>
+    <id>mtb-t2g-example-mdma-scatter</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-mdma-scatter</uri>
+    <description><![CDATA[This code example demonstrates how to use the scatter functionality of the M-DMA block. This example shows a memory transfer via Memory Direct Memory Access (M-DMA) in scatter mode, which allows to transfer data to multiple locations in memory in one transfer. For this, the source data must be specified in a specific way. In a real application, this can be used to write many configuration values into registers scattered around in memory in one transfer. M-DMA handles these transfers without CPU involvement.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-mdma-scatter/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>ADC Calibration</name>
+    <id>mtb-t2g-example-adc-calibration</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-calibration</uri>
+    <description><![CDATA[This code example demonstrates the ADC calibration algorithm. In this example, the ADC calibration algorithm is executed to find an optimal offset and gain compensation for the ADC. It is also providing the options for decalibration by setting different offset and gain values (boundary values) which result in a decalibrated analog-to-digital transfer curve. A single ADC conversion is showing the voltage level of a potentiometer output while the calibration is done on a different logical ADC channel.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-calibration/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>ADC Range Detection</name>
+    <id>mtb-t2g-example-adc-range-detection</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-range-detection</uri>
+    <description><![CDATA[This code example demonstrates the ADC range detection feature of the SAR ADC module. This feature is useful to monitor whether the converted result of ADC voltage is within the required range. In this example, the ADC range detection feature is configured to trigger an interrupt whenever the ADC output voltage goes out of the range marked by user-selected threshold voltages. The onboard potentiometer is used to provide input voltage level to the selected ADC channel. Optionally, an external waveform generator can be used to provide an adequate ADC input signal. The onboard USER_LED is switched on whenever the ADC input voltage goes out of range.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-range-detection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>ADC Pulse Detection</name>
+    <id>mtb-t2g-example-adc-pulse-detection</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-pulse-detection</uri>
+    <description><![CDATA[This code example illustrates the functionality of the SAR ADC module's pulse detection feature. This feature relies on ADC range detection and serves the purpose of monitoring whether the converted ADC voltage result falls within the specified range while considering a filtering function. In this example, we configure the ADC pulse detection feature to trigger an interrupt whenever the ADC input voltage deviates beyond the threshold voltages set by the user. Unlike the standard ADC range detection mode, we incorporate a hardware reload counter to tally the range detection events. The interrupt callback function is executed only when a certain number of predefined events are detected. To provide the input voltage level to the chosen ADC channel, we utilize an onboard potentiometer. Alternatively, an external waveform generator can be employed to supply an appropriate ADC input signal. Whenever the ADC input voltage deviates from the specified range for the predefined reload counter value, the configured GPIO pin gives a momentary HIGH signal. The primary purpose of the pulse detection feature is to filter out glitches or noise from the observed analog signal, among other potential applications.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-pulse-detection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>ADC Diagnostic Reference Conversion</name>
+    <id>mtb-t2g-example-adc-diag-ref</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-adc-diag-ref</uri>
+    <description><![CDATA[This code example demonstrates the usage of the diagnostic reference for debugging the functionality of the on-chip ADC (Analog-to-Digital Converter) module. In this example, the diagnostic reference module is used to provide a known voltage as an input to the ADC module. The purpose of this setup is to test the ADC's functionality. The output count of the ADC is converted to equivalent voltage. The ADC is working correctly, if the measured voltage matches the input voltage within an acceptable margin of error.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-diag-ref/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>Trigger Multiplexer TRIG_DBG signal</name>
+    <id>mtb-t2g-example-trigmux-trig-dbg</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-trigmux-trig-dbg</uri>
+    <description><![CDATA[This code example demonstrates the usage of the TRIG_DBG signal at a port pin as a means for debugging on-chip trigger activity. In this example, one of the trigger outputs of a Timer Counter Pulse Width Modulation (TCPWM) HW module is observable at a port pin using the Trigger Multiplexer HSIOM_IO_OUTPUT trigger output and TRIG_DBG port function. In a real application this could be used for debugging purposes to check the occurrence of trigger events or their temporal relationship to other signals.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-trigmux-trig-dbg/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>FLASH ECC Injection</name>
+    <id>mtb-t2g-example-flash-ecc-injection</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-flash-ecc-injection</uri>
+    <description><![CDATA[This code example demonstrates the usage of the ECC error injection feature to test the functionality of Flash Error Correcting Code (ECC). In this example, the ECC error injection mechanism is used to inject an error into the target Code Flash address. When the target address is read, the flash controller's ECC logic triggers a fault through the central fault sub-system, indicating the error. In case of non-correctable errors, a bus error is returned to the requester in addition. The faults are then handled, and the fault information is displayed. This example demonstrates Single Error Correction and Double Error Detection (SECDED).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-flash-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+    <name>P-DMA ECC Injection</name>
+    <id>mtb-t2g-example-pdma-ecc-injection</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-pdma-ecc-injection</uri>
+    <description><![CDATA[This code example demonstrates the usage of the ECC error injection feature to test the functionality of the ECC logic for the P-DMA channel configuration SRAM memory. In this example, the ECC error injection mechanism is used to inject an error into the target P-DMA channel's SRAM word. When the target address is read, the P-DMA ECC logic triggers a fault through the central fault sub-system, indicating the error. The faults are then handled, and the fault information is displayed. This example demonstrates Single Error Correction and Double Error Detection (SECDED).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pdma-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
