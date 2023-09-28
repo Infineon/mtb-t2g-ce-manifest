@@ -450,6 +450,21 @@
     </versions>
   </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>AWS IoT OTA Dualbank</name>
+    <id>mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank</id>
+    <category>Advanced Solutions</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank</uri>
+    <description><![CDATA[This code example uses a TRAVEO™ T2G MCU to run the OTA function of the AWS IoT Cloud via Ethernet using MQTT over TLS. It also adopts Dual Bank Flash to enable fast activation/roll-back between old and new firmware, Secure Boot feature to ensure the security of the firmware and Crypto hardware which accelerates the crypto operation.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
     <name>ADC 3CHs simultaneous conversion using TCPWM</name>
     <id>mtb-t2g-example-adc-simul-conversion</id>
     <category>Additional Code Examples</category>
