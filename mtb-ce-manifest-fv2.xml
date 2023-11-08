@@ -89,7 +89,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>GPIO Pins</name>
     <id>mtb-t2g-lite-example-gpio-pins</id>
     <category>Additional Code Examples</category>
@@ -104,7 +104,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>ADC basic</name>
     <id>mtb-t2g-lite-example-adc-basic</id>
     <category>Additional Code Examples</category>
@@ -119,7 +119,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>EVTGEN trigger ADC</name>
     <id>mtb-t2g-lite-example-evtgen-active-trigger-adc</id>
     <category>Additional Code Examples</category>
@@ -134,7 +134,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>Smart IO with GPIO</name>
     <id>mtb-t2g-lite-example-smartio-gpio</id>
     <category>Additional Code Examples</category>
@@ -149,7 +149,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>TCPWM Dead Time Mode</name>
     <id>mtb-t2g-lite-example-tcpwm-dt</id>
     <category>Additional Code Examples</category>
@@ -164,7 +164,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>Toggle LED with SysTick Timer</name>
     <id>mtb-t2g-lite-example-systick-led</id>
     <category>Additional Code Examples</category>
@@ -179,7 +179,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>CAN FD</name>
     <id>mtb-t2g-lite-example-canfd</id>
     <category>Additional Code Examples</category>
@@ -194,7 +194,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-t2g-lite-example-spi-master-dma</id>
     <category>Additional Code Examples</category>
@@ -209,22 +209,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
-    <name>Emulated EEPROM</name>
-    <id>mtb-t2g-lite-example-emulated-eeprom</id>
-    <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-emulated-eeprom</uri>
-    <description><![CDATA[This example uses the Arm® Cortex®-M7 (CM7_0) CPU of the TRAVEO™ T2G MCU to execute two tasks: UART communication and emulate EEPROM behavior in flash memory.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-emulated-eeprom/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>TCPWM Counter</name>
     <id>mtb-t2g-lite-example-tcpwm-counter</id>
     <category>Additional Code Examples</category>
@@ -233,37 +218,37 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-counter/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite, kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
     <name>MCWDT Interrupt</name>
     <id>mtb-t2g-lite-example-mcwdt</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-lite-example-mcwdt</uri>
     <description><![CDATA[This example shows how to configure TRAVEO™ T2G MCWDT Subcounter0/1 and Subcounter2 operation with interrupt.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-mcwdt/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
+    <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-t2g-lite-example-uart-transmit-receive-dma</id>
     <category>Additional Code Examples</category>
     <uri>https://github.com/Infineon/mtb-t2g-lite-example-uart-transmit-receive-dma</uri>
     <description><![CDATA[This code example demonstrates the UART transmit and receive operation in TRAVEO™ T2G using DMA. The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-uart-transmit-receive-dma/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
+    <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -344,7 +329,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
     <name>TCPWM Asymmetric PWM Generation</name>
     <id>mtb-t2g-example-pwm-dual-compare-capture</id>
     <category>Additional Code Examples</category>
@@ -696,6 +681,201 @@
     <uri>https://github.com/Infineon/mtb-t2g-example-pdma-ecc-injection</uri>
     <description><![CDATA[This code example demonstrates the usage of the ECC error injection feature to test the functionality of the ECC logic for the P-DMA channel configuration SRAM memory. In this example, the ECC error injection mechanism is used to inject an error into the target P-DMA channel's SRAM word. When the target address is read, the P-DMA ECC logic triggers a fault through the central fault sub-system, indicating the error. The faults are then handled, and the fault information is displayed. This example demonstrates Single Error Correction and Double Error Detection (SECDED).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pdma-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>FreeRTOS blinky</name>
+    <id>mtb-t2g-lite-example-blinky-freertos</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-blinky-freertos</uri>
+    <description><![CDATA[This code example demonstrates the blinking LED functionality implemented by FreeRTOS tasks on the TRAVEO™ T2G body entry MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-blinky-freertos/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Dual-CPU Empty App</name>
+    <id>mtb-t2g-lite-example-dual-cpu-empty-app</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-dual-cpu-empty-app</uri>
+    <description><![CDATA[This is a minimal starter dual-CPU application template for TRAVEO™ T2G MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-dual-cpu-empty-app/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Code Flash Sector Data Updating</name>
+    <id>mtb-t2g-lite-example-hal-code-flash-sector-data-updating</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-code-flash-sector-data-updating</uri>
+    <description><![CDATA[This code example demonstrates the use of the Flash HAL driver to perform code flash Read/Write/Erase basic operate and update sector data online. The running steps logs on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-code-flash-sector-data-updating/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Hello World</name>
+    <id>mtb-t2g-lite-example-hal-hello-world</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-hello-world</uri>
+    <description><![CDATA[This code example demonstrates a simple UART communication by printing a "Hello World" message on a terminal and blinking an LED using a timer resource. This code example is based on HAL (Hardware Abstraction Layer) libraries.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-hello-world/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
+    <name>RTC Basics</name>
+    <id>mtb-t2g-lite-example-hal-rtc-basics</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-rtc-basics</uri>
+    <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in Infineon MCU. It shows how to get and set the time in the RTC using the RTC HAL API.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-rtc-basics/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>HAL SPI Master</name>
+    <id>mtb-t2g-lite-example-hal-spi-master</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-master</uri>
+    <description><![CDATA[This example demonstrates the use of SPI (HAL) resource in Master mode. The SPI master is configured to send command packets to control a user LED on the slave.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-master/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>HAL SPI Slave</name>
+    <id>mtb-t2g-lite-example-hal-spi-slave</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-slave</uri>
+    <description><![CDATA[This code example demonstrates the use of SPI (HAL) resource in Slave mode. The SPI slave is configured to receive command packets to control a user LED on the kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-slave/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Low-Power Wakeup from RTC Alarm</name>
+    <id>mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm</uri>
+    <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate mode, and wakeup using the RTC alarm. This multi-core application has the main function running on the CM4_0 core.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Multicore IPC Pipes</name>
+    <id>mtb-t2g-lite-example-multicore-ipc-pipes</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-multicore-ipc-pipes</uri>
+    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in TRAVEO™ T2G MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-multicore-ipc-pipes/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Fault Handling</name>
+    <id>mtb-t2g-lite-example-pdl-fault-handling</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-pdl-fault-handling</uri>
+    <description><![CDATA[This example demonstrates the fault handling functionality of TRAVEO™ T2G MCU using Peripheral Driver Library (PDL) System Library (SysLib).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-pdl-fault-handling/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>LVD Interrupt</name>
+    <id>mtb-t2g-lite-example-pdl-lvd-interrupt</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-pdl-lvd-interrupt</uri>
+    <description><![CDATA[This code example shows how to configure low-voltage detection (LVD) in TRAVEO™ T2G MCU to monitor VDDD and generate an interrupt when VDDD drops below the configured threshold.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-pdl-lvd-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Switching Power Modes</name>
+    <id>mtb-t2g-lite-example-switching-power-modes</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-lite-example-switching-power-modes</uri>
+    <description><![CDATA[This example demonstrates how to transition TRAVEO™ T2G MCU to the Active, Sleep, DeepSleep and Hibernate power states, and how to wake up and return to Active state.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-switching-power-modes/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+    <name>TCPWM Shift Register Mode</name>
+    <id>mtb-t2g-example-tcpwm-srmode</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-srmode</uri>
+    <description><![CDATA[This code example demonstrates the delayed signal generation using Shift Register (SR) mode. The SR functionality shifts the counter value in the right direction. The capture0 input is used to generate the MSB of the next counter value. The line output signal is driven from a programmable tab of the counter. In this example, the capture0 is assigned to the user button of the kit and the line output is assigned to the user LED of the kit as well, so the LED will light up about 0.5s later from the press of the button.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-srmode/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
