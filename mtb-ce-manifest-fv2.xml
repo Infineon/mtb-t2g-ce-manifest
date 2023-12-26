@@ -389,7 +389,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbe]">
     <name>SMART IO Glitch Filter</name>
     <id>mtb-t2g-example-smart-io-glitch-filters</id>
     <category>Additional Code Examples</category>
@@ -509,7 +509,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
     <name>ADC Conversion Result Processing</name>
     <id>mtb-t2g-example-adc-processing-result</id>
     <category>Additional Code Examples</category>
@@ -524,7 +524,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
     <name>CRYPTO Performance Measurement</name>
     <id>mtb-t2g-example-crypto-performance</id>
     <category>Additional Code Examples</category>
@@ -539,7 +539,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
     <name>TCPWM Capture</name>
     <id>mtb-t2g-example-tcpwm-capture</id>
     <category>Additional Code Examples</category>
