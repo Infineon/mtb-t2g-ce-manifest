@@ -8,7 +8,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-nmi-timing-protection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -23,13 +23,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-secure-boot/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>PROT CPU MPU Configuration</name>
     <id>mtb-t2g-example-cpu-mpu-configuration</id>
     <category>Additional Code Examples</category>
@@ -38,7 +38,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-cpu-mpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -53,13 +57,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-software-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>M-DMA Memorycopy</name>
     <id>mtb-t2g-example-mdma-memorycopy</id>
     <category>Additional Code Examples</category>
@@ -68,7 +72,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-mdma-memorycopy/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -83,7 +91,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-swpu-app-protection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -98,7 +106,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-gpio-pins/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -113,7 +121,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-adc-basic/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -128,7 +136,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-evtgen-active-trigger-adc/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -143,7 +151,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-smartio-gpio/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -158,7 +166,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-tcpwm-dt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -173,7 +181,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-systick-led/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -188,7 +196,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-canfd/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -203,7 +211,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-spi-master-dma/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -269,7 +277,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>FAULT REPORT Configuration</name>
     <id>mtb-t2g-example-fault-report-configuration</id>
     <category>Additional Code Examples</category>
@@ -278,7 +286,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-fault-report-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -293,13 +305,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smif-qspi-flash-read-write/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>P-DMA 2D Transfer</name>
     <id>mtb-t2g-example-pdma-2d-transfer</id>
     <category>Additional Code Examples</category>
@@ -308,7 +320,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pdma-2d-transfer/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -323,7 +339,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-secure-ppu-enhanced-security/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -338,13 +354,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-flash-dual-bank-switching/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe,t2gc2d]">
     <name>TCPWM Asymmetric PWM Generation</name>
     <id>mtb-t2g-example-pwm-dual-compare-capture</id>
     <category>Additional Code Examples</category>
@@ -353,7 +369,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pwm-dual-compare-capture/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -368,7 +388,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-audioss-i2s-sound-play-using-dma/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -383,7 +403,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pass-transistor-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -398,7 +418,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-prot-ppu-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -413,13 +433,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smart-io-glitch-filters/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>PROT PPU Configuration</name>
     <id>mtb-t2g-example-ppu-configuration</id>
     <category>Additional Code Examples</category>
@@ -428,13 +448,17 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ppu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>PROT SMPU Configuration</name>
     <id>mtb-t2g-example-smpu-configuration</id>
     <category>Additional Code Examples</category>
@@ -443,7 +467,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -458,7 +486,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -473,7 +501,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-simul-conversion/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -488,13 +516,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-simul-start/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>RAM Retention after External Reset</name>
     <id>mtb-t2g-example-ram-retention-external-reset</id>
     <category>Additional Code Examples</category>
@@ -503,13 +531,17 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-external-reset/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>RAM Retention in DeepSleep Power Mode</name>
     <id>mtb-t2g-example-ram-retention-deepsleep</id>
     <category>Additional Code Examples</category>
@@ -518,7 +550,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-deepsleep/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -533,7 +569,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-processing-result/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -548,13 +584,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-crypto-performance/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe,t2gc2d]">
     <name>TCPWM Capture</name>
     <id>mtb-t2g-example-tcpwm-capture</id>
     <category>Additional Code Examples</category>
@@ -563,7 +599,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-capture/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -578,7 +618,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-clock-external-output/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -593,7 +633,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-mdma-scatter/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -608,13 +648,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-calibration/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>ADC Range Detection</name>
     <id>mtb-t2g-example-adc-range-detection</id>
     <category>Additional Code Examples</category>
@@ -623,13 +663,17 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-range-detection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>ADC Pulse Detection</name>
     <id>mtb-t2g-example-adc-pulse-detection</id>
     <category>Additional Code Examples</category>
@@ -638,7 +682,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-pulse-detection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -653,7 +701,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-diag-ref/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -668,7 +716,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-trigmux-trig-dbg/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -683,7 +731,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-flash-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -698,7 +746,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pdma-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -713,7 +761,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-blinky-freertos/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -728,7 +776,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-dual-cpu-empty-app/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -743,7 +791,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-code-flash-sector-data-updating/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -758,7 +806,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-hello-world/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -773,7 +821,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-rtc-basics/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -788,7 +836,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-master/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -803,7 +851,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-spi-slave/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -818,7 +866,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -833,7 +881,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-multicore-ipc-pipes/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -848,7 +896,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-pdl-fault-handling/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -863,7 +911,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-pdl-lvd-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -878,7 +926,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-switching-power-modes/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -893,7 +941,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-srmode/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
