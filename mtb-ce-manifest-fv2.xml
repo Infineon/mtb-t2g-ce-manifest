@@ -1025,4 +1025,49 @@
       </version>
     </versions>
   </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>Manchester Encoding and Decoding using Smart IO</name>
+    <id>mtb-t2g-example-scb-spi-manchester</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-scb-spi-manchester</uri>
+    <description><![CDATA[This code example demonstrates the encoding and decoding of Manchester protocol using Smart I/O and its verification.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-scb-spi-manchester/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
+    <name>TCPWM PWM on the Fly Update</name>
+    <id>mtb-t2g-example-tcpwm-on-the-fly</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-tcpwm-on-the-fly</uri>
+    <description><![CDATA[This code example demonstrates the update of duty cycle and frequency of a pulse width modulation (PWM) signal on the fly using Timer Counter Pulse Width Modulator (TCPWM) block.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-on-the-fly/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gbe</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Sound Mixer</name>
+    <id>mtb-t2g-example-sound-mixer</id>
+    <category>Additional Code Examples</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-sound-mixer</uri>
+    <description><![CDATA[This code example is for combining two pulse-code modulation (PCM) source streams into a single PCM destination stream.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-sound-mixer/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
