@@ -845,21 +845,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
-    <name>Hello World</name>
-    <id>mtb-t2g-lite-example-hal-hello-world</id>
-    <category>Additional Code Examples</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-hal-hello-world</uri>
-    <description><![CDATA[This code example demonstrates a simple UART communication by printing a "Hello World" message on a terminal and blinking an LED using a timer resource. This code example is based on HAL (Hardware Abstraction Layer) libraries.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-hal-hello-world/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbe</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
     <name>RTC Basics</name>
     <id>mtb-t2g-lite-example-hal-rtc-basics</id>
