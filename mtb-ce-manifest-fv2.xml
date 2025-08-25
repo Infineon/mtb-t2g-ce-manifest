@@ -29,29 +29,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>PROT CPU MPU Configuration</name>
-    <id>mtb-t2g-example-cpu-mpu-configuration</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-cpu-mpu-configuration</uri>
-    <description><![CDATA[This code example shows how to configure the Memory Protection Unit (MPU), which is part of the CPU, and describes its operation and initial settings. In this example, the memory is split in different regions and protected. When a protected region is tried to access, an exception is raised.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-cpu-mpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
     <name>INTERRUPT Software Interrupt</name>
     <id>mtb-t2g-example-software-interrupt</id>
@@ -399,21 +376,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
-    <name>AUDIOSS I2S Sound Play using DMA</name>
-    <id>mtb-t2g-example-audioss-i2s-sound-play-using-dma</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-audioss-i2s-sound-play-using-dma</uri>
-    <description><![CDATA[This code example shows how to play the sound of WAV format via I2S functionality of AUDIO Subsystem using P-DMA. TRAVEO&#8482; T2G MCUs have an Audio Subsystem that can establish a serial bus interface used to connect digital audio device together. This CE transmits a WAV sound source prepared in Code Flash via standard I2S bus. In addition, the sound can be played without any CPU load since the CPU only used to input a trigger to start playing the sound and the sound data transmission is done automatically by P-DMA.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-audioss-i2s-sound-play-using-dma/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
     <name>REGHC Pass Transistor Configuration</name>
     <id>mtb-t2g-example-pass-transistor-configuration</id>
@@ -500,21 +462,6 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
-    <name>AWS IoT OTA Dualbank</name>
-    <id>mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank</id>
-    <category>Solutions</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank</uri>
-    <description><![CDATA[This code example uses a TRAVEO&#8482; T2G MCU to run the OTA function of the AWS IoT Cloud via Ethernet using MQTT over TLS. It also adopts Dual Bank Flash to enable fast activation/roll-back between old and new firmware, Secure Boot feature to ensure the security of the firmware and Crypto hardware which accelerates the crypto operation.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-aws-iot-ota-mqtt-ethernet-dualbank/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -816,21 +763,6 @@
     </versions>
   </app>
   <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
-    <name>Dual-CPU Empty App</name>
-    <id>mtb-t2g-lite-example-dual-cpu-empty-app</id>
-    <category>Getting Started</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-dual-cpu-empty-app</uri>
-    <description><![CDATA[This is a minimal starter dual-CPU application template for TRAVEO&#8482; T2G MCU devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-dual-cpu-empty-app/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbe</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
     <name>Code Flash Sector Data Updating</name>
     <id>mtb-t2g-lite-example-hal-code-flash-sector-data-updating</id>
     <category>Peripherals</category>
@@ -891,36 +823,6 @@
     </versions>
   </app>
   <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
-    <name>Low-Power Wakeup from RTC Alarm</name>
-    <id>mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm</uri>
-    <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate mode, and wakeup using the RTC alarm. This multi-core application has the main function running on the CM4_0 core.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-low-power-wakeup-from-rtc-alarm/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbe</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
-    <name>Multicore IPC Pipes</name>
-    <id>mtb-t2g-lite-example-multicore-ipc-pipes</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-multicore-ipc-pipes</uri>
-    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in TRAVEO&#8482; T2G MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-multicore-ipc-pipes/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbe</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
     <name>Fault Handling</name>
     <id>mtb-t2g-lite-example-pdl-fault-handling</id>
     <category>Peripherals</category>
@@ -942,21 +844,6 @@
     <uri>https://github.com/Infineon/mtb-t2g-lite-example-pdl-lvd-interrupt</uri>
     <description><![CDATA[This code example shows how to configure low-voltage detection (LVD) in TRAVEO&#8482; T2G MCU to monitor VDDD and generate an interrupt when VDDD drops below the configured threshold.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-pdl-lvd-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbe</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
-    <name>Switching Power Modes</name>
-    <id>mtb-t2g-lite-example-switching-power-modes</id>
-    <category>Getting Started</category>
-    <uri>https://github.com/Infineon/mtb-t2g-lite-example-switching-power-modes</uri>
-    <description><![CDATA[This example demonstrates how to transition TRAVEO&#8482; T2G MCU to the Active, Sleep, DeepSleep and Hibernate power states, and how to wake up and return to Active state.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-lite-example-switching-power-modes/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
@@ -1418,4 +1305,3 @@
     </versions>
   </app>
 </apps>
-
