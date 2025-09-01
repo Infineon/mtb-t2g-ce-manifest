@@ -67,21 +67,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
-    <name>SECURE SWPU App Protection</name>
-    <id>mtb-t2g-example-swpu-app-protection</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-swpu-app-protection</uri>
-    <description><![CDATA[This code example shows how to configure user application protection using a SWPU (SoftWare Protection Unit). The SWPU of the TRAVEO&#8482; T2G MCU consists of the FWPU (Flash Write Protection Unit), ERPU (eFuse Read Protection Unit), and EWPU (eFuse Write Protection Unit) to protect the protection target from access by the user application. This CE configures the FWPU to protect the write/erase access to the Code Flash from each CM7 cores.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-swpu-app-protection/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gbe]">
     <name>GPIO Pins</name>
     <id>mtb-t2g-lite-example-gpio-pins</id>
@@ -324,21 +309,6 @@
     </versions>
   </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
-    <name>SECURE PPU Enhanced Security</name>
-    <id>mtb-t2g-example-secure-ppu-enhanced-security</id>
-    <category>Security</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-secure-ppu-enhanced-security</uri>
-    <description><![CDATA[This code example shows how to configure a PPU enhanced security. The PPU (Peripheral Protection Unit) is one of the protection features of the TRAVEO&#8482; T2G MCU. This CE shows how to enhance security by adding a PPU configuration to TOC2 in SFlash and enabling it by flash boot and HSM (Hardware Security Module) software (= CM0+ firmware). This operation can enhance the security of the HSM software. Note that to ensure the security HSM software should be securely booted using secure boot mechanism of the TRAVEO&#8482; T2G MCU, but this CE does not implement that since it focuses to the security enhancement feature. To see how to implement the secure boot mechanism, refer to another CE <a href="https://github.com/Infineon/mtb-t2g-example-secure-boot">SECURE boot</a>.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-secure-ppu-enhanced-security/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
     <name>FLASH Dual Bank Switching</name>
     <id>mtb-t2g-example-flash-dual-bank-switching</id>
     <category>Peripherals</category>
@@ -376,21 +346,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
-    <name>REGHC Pass Transistor Configuration</name>
-    <id>mtb-t2g-example-pass-transistor-configuration</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-pass-transistor-configuration</uri>
-    <description><![CDATA[This code example demonstrates how to switch and configure to an external Pass Transistor. This code example demonstrates how to switch the power supply source between an internal regulator (LDO) and an external pass transistor. It also shows enter and wake up from DeepSleep mode when the external pass transistor is used.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pass-transistor-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
     <name>PROT PPU ECC Injection</name>
     <id>mtb-t2g-example-prot-ppu-ecc-injection</id>
@@ -416,52 +371,6 @@
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>PROT PPU Configuration</name>
-    <id>mtb-t2g-example-ppu-configuration</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-ppu-configuration</uri>
-    <description><![CDATA[This code example shows how to configure the PPU (Peripheral Protection Unit) and describes its operation and initial settings. In this example, the PPU is used for protection. If access violation is detected, a fault is generated.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ppu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>PROT SMPU Configuration</name>
-    <id>mtb-t2g-example-smpu-configuration</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-smpu-configuration</uri>
-    <description><![CDATA[This code example shows how to configure the SMPU (Shared Memory Protection Unit) and describes its operation and initial settings. In this example, the SMPU is used for protection. If access violation is detected, a fault is generated.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smpu-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -504,29 +413,6 @@
     <uri>https://github.com/Infineon/mtb-t2g-example-ram-retention-external-reset</uri>
     <description><![CDATA[This code example checks RAM Retention mode after External Reset occurs. The TRAVEO&#8482; T2G MCU has a retention function for SRAM, but after an external reset using the XRES_L pin occurs, the SRAM values cannot be retained correctly because the write buffer of the SRAM is not subject to retention. This example shows how to retain the SRAM value even after the MCU is reset by an external device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-external-reset/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>RAM Retention in DeepSleep Power Mode</name>
-    <id>mtb-t2g-example-ram-retention-deepsleep</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-ram-retention-deepsleep</uri>
-    <description><![CDATA[This code example demonstrates how to set RAM into Retention mode before entering DeepSleep mode. TRAVEO&#8482; T2G MCUs provides the Static RAM (SRAM) Retention function in DeepSleep mode. This code example writes known data into SRAM Controller 1 and sets the SRAM into Retention mode before entering DeepSleep mode. After wakeup from DeepSleep mode, data written to SRAM Controller 1 is read back and compared to the data written before entering DeepSleep mode to check if the data is retained.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ram-retention-deepsleep/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
@@ -882,21 +768,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite]">
-    <name>Basic Supervision of System Calls by HSM</name>
-    <id>mtb-t2g-example-hsm-supervision-syscalls-basic</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-hsm-supervision-syscalls-basic</uri>
-    <description><![CDATA[This code example illustrates the supervision of system calls in T2G devices by a Hardware Secure Module (HSM). In this CE, CM0+ CPU acts as the HSM and CM7 CPU acts as the host. Supervision of system calls is a useful feature to prevent blocking the CM0+ (HSM) inside SROM for a long time due to an unnecessary system call request from the host.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-hsm-supervision-syscalls-basic/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbe" req_capabilities_v2="[t2gbe]">
     <name>Manchester Encoding and Decoding using Smart IO</name>
     <id>mtb-t2g-example-scb-spi-manchester</id>
@@ -1074,6 +945,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Graphics Middleware Window Example</name>
+    <id>mtb-t2g-example-graphics-windowexample</id>
+    <category>Graphics</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-graphics-windowexample</uri>
+    <description><![CDATA[This code example demonstrates the fundamental display engine concepts in the Infineon GFX driver through animated bars visualization showing multi-layer composition, surface management, and real-time graphics updates.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-graphics-windowexample/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Graphics Middleware FPD-link HDMI basic</name>
+    <id>mtb-t2g-example-graphics-fpd-link-hdmi-basic</id>
+    <category>Graphics</category>
+    <uri>https://github.com/Infineon/mtb-t2g-example-graphics-fpd-link-hdmi-basic</uri>
+    <description><![CDATA[This code example is for outputting the display of a basic image with graphics library package via FPD-Link of Graphic Subsystems.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-graphics-fpd-link-hdmi-basic/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc4" req_capabilities_v2="psoc4">
     <name>WDT Interrupt and Reset</name>
     <id>mtb-hv-example-psoc4-wdt-interrupt-reset</id>
@@ -1236,3 +1145,5 @@
     </versions>
   </app>
 </apps>
+
+
