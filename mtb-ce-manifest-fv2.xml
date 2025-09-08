@@ -634,29 +634,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe]">
-    <name>CRYPTO Performance Measurement</name>
-    <id>mtb-t2g-example-crypto-performance</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-crypto-performance</uri>
-    <description><![CDATA[This code example shows the performance differences of crypto hardware block and the one that is performed by CPU. The result should be printed to the terminal along with the approximate time taken for each method. In this example, the performance is analyzed while generating a 32-byte hash value or message digest for a given data with the SHA256 algorithm using the Cryptographic hardware block in the MCU. The cipher procedure on CPU is done by MbedTLS library.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-crypto-performance/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe,t2gc2d]">
     <name>TCPWM Capture</name>
     <id>mtb-t2g-example-tcpwm-capture</id>
