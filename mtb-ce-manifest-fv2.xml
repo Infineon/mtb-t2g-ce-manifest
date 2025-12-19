@@ -13,6 +13,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -34,6 +38,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.1 release</num>
@@ -59,47 +67,8 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>M-DMA Memorycopy</name>
-    <id>mtb-t2g-example-mdma-memorycopy</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-mdma-memorycopy</uri>
-    <description><![CDATA[This code example demonstrates the transmission of data from memory to memory by Memory DMA (M-DMA), shows its operation, initial setting, and interrupt handling. This code example demonstrates the transmission of data from Code Flash to SRAM by M-DMA. M-DMA transfer is initiated using software triggers.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-mdma-memorycopy/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.1.0 release</num>
-        <commit>release-v2.1.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.1 release</num>
@@ -395,45 +364,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
-    <name>FAULT REPORT Configuration</name>
-    <id>mtb-t2g-example-fault-report-configuration</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-fault-report-configuration</uri>
-    <description><![CDATA[This code example shows how to configure the fault subsystem and describes its operation. In this example, a correctable error correction code (ECC) error is injected into the memory, causing a fault.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-fault-report-configuration/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.1.0 release</num>
-        <commit>release-v2.1.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
     <name>SMIF QSPI Flash Read Write</name>
     <id>mtb-t2g-example-smif-qspi-flash-read-write</id>
@@ -446,6 +376,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.1.0 release</num>
@@ -496,45 +430,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gbe,t2gc2d]">
-    <name>TCPWM Asymmetric PWM Generation</name>
-    <id>mtb-t2g-example-pwm-dual-compare-capture</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-pwm-dual-compare-capture</uri>
-    <description><![CDATA[This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the Timer, Counter and PWM (TCPWM) block. Compared to the asymmetric PWM realized with only one compare function (where the CPU is used to update the compare value twice every PWM cycle), this solution uses two independent buffered compare values and causes less load on the CPU (where the CPU is used to update the compare value once every PWM cycle). PWM waveform can be modified through the command on the terminal.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-pwm-dual-compare-capture/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="t2gbh" req_capabilities_v2="[t2gbh,t2gbh_lite]">
     <name>PROT PPU ECC Injection</name>
     <id>mtb-t2g-example-prot-ppu-ecc-injection</id>
@@ -547,6 +442,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
@@ -563,15 +462,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-smart-io-glitch-filters/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -586,11 +489,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-simul-conversion/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -605,11 +512,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-simul-start/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -624,15 +535,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-processing-result/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -650,6 +565,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
@@ -671,6 +590,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -690,74 +613,8 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
-    <name>ADC Range Detection</name>
-    <id>mtb-t2g-example-adc-range-detection</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-adc-range-detection</uri>
-    <description><![CDATA[This code example demonstrates the ADC range detection feature of the SAR ADC module. This feature is useful to monitor whether the converted result of ADC voltage is within the required range. In this example, the ADC range detection feature is configured to trigger an interrupt whenever the ADC output voltage goes out of the range marked by user-selected threshold voltages. The onboard potentiometer is used to provide input voltage level to the selected ADC channel. Optionally, an external waveform generator can be used to provide an adequate ADC input signal. The onboard USER_LED is switched on whenever the ADC input voltage goes out of range.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-range-detection/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="t2gbh" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
-    <name>ADC Pulse Detection</name>
-    <id>mtb-t2g-example-adc-pulse-detection</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-t2g-example-adc-pulse-detection</uri>
-    <description><![CDATA[This code example illustrates the functionality of the SAR ADC module's pulse detection feature. This feature relies on ADC range detection and serves the purpose of monitoring whether the converted ADC voltage result falls within the specified range while considering a filtering function. In this example, we configure the ADC pulse detection feature to trigger an interrupt whenever the ADC input voltage deviates beyond the threshold voltages set by the user. Unlike the standard ADC range detection mode, we incorporate a hardware reload counter to tally the range detection events. The interrupt callback function is executed only when a certain number of predefined events are detected. To provide the input voltage level to the chosen ADC channel, we utilize an onboard potentiometer. Alternatively, an external waveform generator can be employed to supply an appropriate ADC input signal. Whenever the ADC input voltage deviates from the specified range for the predefined reload counter value, the configured GPIO pin gives a momentary HIGH signal. The primary purpose of the pulse detection feature is to filter out glitches or noise from the observed analog signal, among other potential applications.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-pulse-detection/blob/main/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gbh</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_c_2d_6m_lite]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
@@ -774,11 +631,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-adc-diag-ref/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -796,6 +657,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
@@ -817,6 +682,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -834,6 +703,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
@@ -987,11 +860,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-scb-spi-manchester/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5][kit_t2g_b_e_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1006,11 +883,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-tcpwm-on-the-fly/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbe</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4][kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
