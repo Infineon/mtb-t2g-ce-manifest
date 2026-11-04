@@ -873,11 +873,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-graphics-windowexample/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite]">
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite]">
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -900,9 +904,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-graphics-fpd-link-hdmi-basic/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
         <num>1.2.0 release</num>
@@ -927,9 +935,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-graphics-mipi-csi2_camera_capture/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6][kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -965,9 +977,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-t2g-example-ethernet-demo/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gbh</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_b_h_lite]">
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5][kit_t2g_b_h_lite]">
         <num>1.0.0 release</num>
